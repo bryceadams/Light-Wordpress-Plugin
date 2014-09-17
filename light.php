@@ -26,7 +26,7 @@ function light_load_inline_script() {
 	if ( wp_script_is( 'fancybox', 'done' ) ) {
 
 		// 'light_fancy_classes' Hook for easy filtering of the classes that fancybox gets applied to
-		$fancybox_class = apply_fitlers( 'light_fancy_classes', array(
+		$fancybox_class = apply_filters( 'light_fancy_classes', array(
 			'.fancybox',
 		) );
 
