@@ -27,7 +27,7 @@ function light_load_inline_script() {
 
 		// 'light_fancy_classes' Hook for easy filtering of the classes that fancybox gets applied to
 		$fancybox_class = apply_fitlers( 'light_fancy_classes', array(
-			'.fancybox';
+			'.fancybox',
 		) );
 
 		?>
