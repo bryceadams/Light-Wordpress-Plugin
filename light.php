@@ -42,7 +42,7 @@ function light_load_inline_script() {
 			$(".gallery a[href$='.jpg'],.gallery a[href$='.png'],.gallery a[href$='.gif'],.gallery a[href$='.jpeg']").attr('rel', 'gallery');
 
 			// Make all items in the $fancybox_class var into a lightbox
-			$("<?php echo $fancybox_class; ?>").fancybox();
+			$("<?php echo implode( ', ', $fancybox_class ); ?>").fancybox();
 
 		})(jQuery);
 		</script>
